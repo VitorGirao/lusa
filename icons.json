@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "name": "icon1",
+    "image": "./imagens/oculos-sol.png"
+  },
+  {
+    "id": 2,
+    "name": "icon2",
+    "image": "./imagens/oculos-desgaste.png"
+  },
+  {
+    "id": 3,
+    "name": "icon3",
+    "image": "./imagens/oculos-sol.png"
+  },
+  {
+    "id": 4,
+    "name": "icon4",
+    "image": "./imagens/oculos-desgaste.png"
+  },
+  {
+    "id": 5,
+    "name": "icon5",
+    "image": "./imagens/oculos-sol.png"
+  },
+  {
+    "id": 6,
+    "name": "icon6",
+    "image": "./imagens/oculos-desgaste.png"
+  },
+  {
+    "id": 7,
+    "name": "icon7",
+    "image": "./imagens/oculos-sol.png"
+  },
+  {
+    "id": 8,
+    "name": "icon8",
+    "image": "./imagens/oculos-desgaste.png"
+  },
+  {
+    "id": 9,
+    "name": "icon9",
+    "image": "./imagens/oculos-sol.png"
+  }
+]

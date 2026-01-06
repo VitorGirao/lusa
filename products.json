@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Óculos de grau",
+    "image": "./imagens/oculos-desgaste.png",
+    "description1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate.",
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate."
+  },
+  {
+    "name": "Óculos de sol",
+    "image": "./imagens/oculos-sol.png",
+    "description1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate.",
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate."
+  },
+  {
+    "name": "teste 1",
+    "image": "./imagens/oculos-sol.png",
+    "description1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate.",
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate."
+  },
+  {
+    "name": "teste 2",
+    "image": "./imagens/oculos-desgaste.png",
+    "description1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate.",
+    "description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate."
+  }
+]
