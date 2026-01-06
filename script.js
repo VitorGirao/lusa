@@ -22,7 +22,7 @@ document.addEventListener("click", (e) => {
 // Popular produtos
 const productsContainer = document.getElementById("produtos-container");
 
-fetch("./products.json")
+fetch("https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/products.json")
   .then((response) => response.json())
   .then((data) => {
     const products = data;
@@ -62,7 +62,7 @@ fetch("./products.json")
 const iconsContainer = document.getElementById("icon-table");
 let iconsData = [];
 
-fetch("./icons.json")
+fetch("https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/icons.json")
   .then((response) => response.json())
   .then((data) => {
     iconsData = data;
