@@ -42,7 +42,6 @@ fetch("https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/product
         <div>
           <h2>${product.name}</h2>
           <p>${product.description1}</p>
-          <p>${product.description2}</p>
         </div>
         <div class="img-produto">
           <img src="${product.image}" alt="${product.name}" />
@@ -75,7 +74,7 @@ fetch("https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/icons.j
       `;
     });
 
-    // Trocar 2 ícones aleatoriamente a cada 2 segundos
+    // Trocar 3 ícones aleatoriamente a cada 2 segundos
     setInterval(() => {
       const columnsContents = iconsContainer.querySelectorAll(".column > div");
 
@@ -86,32 +85,43 @@ fetch("https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/icons.j
         index2 = Math.floor(Math.random() * columnsContents.length);
       } while (index2 === index1);
 
+      let index3;
+      do {
+        index3 = Math.floor(Math.random() * columnsContents.length);
+      } while (index3 === index1 || index3 === index2);
+
       const img1 = columnsContents[index1].querySelector("img");
       const img2 = columnsContents[index2].querySelector("img");
+      const img3 = columnsContents[index3].querySelector("img");
 
       img1.style.opacity = "0";
       img1.style.transform = "scale(0.7)";
       img2.style.opacity = "0";
       img2.style.transform = "scale(0.7)";
+      img3.style.opacity = "0";
+      img3.style.transform = "scale(0.7)";
 
       setTimeout(() => {
-        // Swap only the src and alt attributes
         const tempSrc = img1.src;
         const tempAlt = img1.alt;
 
         img1.src = img2.src;
         img1.alt = img2.alt;
-        img2.src = tempSrc;
-        img2.alt = tempAlt;
+        img2.src = img3.src;
+        img2.alt = img3.alt;
+        img3.src = tempSrc;
+        img3.alt = tempAlt;
 
         img1.style.opacity = "1";
         img1.style.transform = "scale(1.0)";
         img2.style.opacity = "1";
         img2.style.transform = "scale(1.0)";
+        img3.style.opacity = "1";
+        img3.style.transform = "scale(1.0)";
       }, 500);
     }, 2500);
   })
-  .catch((error) => console.error("Erro ao carregar ícones:", error))
+  .catch((error) => console.error("Erro ao carregar ícones:", error));
 
 // Link ativo ao rolar a página
 const sections = document.querySelectorAll("main section");

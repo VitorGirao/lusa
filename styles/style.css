@@ -15,7 +15,7 @@
 html {
     scroll-behavior: smooth;
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background-color: var(--tertiary-green);
+    background-color: black;
 }
 
 header {
@@ -105,7 +105,7 @@ header button {
 #hero {
     display: flex;
     align-items: center;
-    background-image: url("../imagens/background.png");
+    background-image: url("../imagens/backgroundofc2.png");
     background-size: cover;
     height: 100dvh;
 }
@@ -131,12 +131,12 @@ header button {
 }
 
 #about {
-    background-color: var(--secondary-green);
+    background-color: white;
     padding: 4rem 0;
 }
 
 .about-content {
-    color: white;
+    color: var(--primary-green);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -221,9 +221,9 @@ header button {
 
 .img-produto {
     padding: 2rem 2rem;
-    background-color: var(--quaternary-green);
-    width: 20rem;
-    height: 20rem;
+    background-color: var(--tertiary-green);
+    width: 22rem;
+    height: 22rem;
     border-radius: 50%;
     flex-shrink: 0;
 }
@@ -240,7 +240,7 @@ header button {
 }
 
 #localizacao {
-    background-color: var(--secondary-green);
+    background-color: white;
     padding: 4rem 0;
 }
 
@@ -254,7 +254,7 @@ header button {
 .localizacao-content h2 {
     font-size: 2.25rem;
     line-height: 2.5rem;
-    color: var(--white);
+    color: var(--primary-green);
 }
 
 #informacoes {
@@ -284,8 +284,6 @@ header button {
     gap: 2rem;
 }
 
-#redes {
-}
 
 #icones-redes {
     display: flex;
@@ -316,6 +314,8 @@ header button {
 }
 
 footer {
+    background-image: url("../imagens/backgroundRodaPe3.png");
+    background-size: cover;
     background-color: var(--primary-green);
     color: var(--white);
     min-height: 15rem;

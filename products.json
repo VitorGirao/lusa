@@ -1,24 +1,21 @@
 [
   {
-    "name": "OCULOS DE SOL",
-    "image": "./imagens/oculos-desgaste.png",
-    "description1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate.",
-    "description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate."
+    "name": "Óculos de grau",
+    "image": "./imagens/oculosGrau.png",
+    "description1": "Ver bem também é se sentir confiante todos os dias. Nossa linha de óculos de grau combina tecnologia, conforto e design contemporâneo para transformar a experiência de uso. As armações são leves, resistentes e pensadas para o uso diário, valorizando o seu rosto e refletindo seu estilo, enquanto oferecem o suporte ideal para a sua visão."
   },
   {
     "name": "Óculos de sol",
-    "image": "./imagens/oculos-sol.png",
-    "description1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate.",
-    "description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate."
+    "image": "./imagens/oculosSol.png",
+    "description1": "Proteção, estilo e personalidade em cada detalhe. Nossos óculos de sol foram pensados para quem busca mais do que um acessório: eles entregam conforto, segurança e design. Com lentes de alta proteção UV e acabamentos modernos, cada modelo une funcionalidade e estética, acompanhando tendências e garantindo presença em qualquer ocasião, do dia a dia aos momentos especiais."
   },
   {
-    "name": "teste 1",
-    "image": "./imagens/oculos-sol.png",
-    "description1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate.",
-    "description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate."
+    "name": "Lentes de contato",
+    "image": "./imagens/LenteContato.png",
+    "description1": "Tecnologia, nitidez e cuidado com a sua visão. Trabalhamos com lentes de alta qualidade, desenvolvidas para proporcionar visão clara, conforto visual e proteção. São soluções personalizadas para diferentes necessidades, que acompanham sua rotina e garantem bem-estar ao longo do dia, com a confiança de uma tecnologia feita para cuidar dos seus olhos."
   },
   {
-    "name": "teste 2",
+    "name": "Lentes de contato",
     "image": "./imagens/oculos-desgaste.png",
     "description1": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate.",
     "description2": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor ipsam aperiam facere saepe, pariatur ea odio blanditiis maxime similique illo dolores, consectetur laborum ut? Vitae placeat veniam possimus autem aperiam. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure nisi exercitationem, fuga voluptatibus necessitatibus quaerat expedita quas perferendis reprehenderit totam architecto enim est esse dolores, temporibus reiciendis voluptates odit cupiditate."
