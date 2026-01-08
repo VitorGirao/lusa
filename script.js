@@ -168,21 +168,32 @@ sections.forEach((section) => {
 
 const container = document.getElementById("comentarios");
 
-fetch('./clientes.json')
-  .then(response => {
-    console.log('Response:', response);
-    return response.json();
-  })
-  .then(data => {
-    console.log('Dados carregados:', data);
+const icones = [
+  "../imagens/icon1.png",
+  "../imagens/icon2.png",
+  "../imagens/icon3.png",
+  "../imagens/icon4.png",
+  "../imagens/icon4p2.png",
+  "../imagens/icon5.png",
+  "../imagens/icon5p2.png",
+  "../imagens/icon6.png",
+  "../imagens/icon6p2.png"
+];
 
+function iconeAleatorio() {
+  return icones[Math.floor(Math.random() * icones.length)];
+}
+
+fetch('https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/clientes.json')
+  .then(response => response.json())
+  .then(data => {
     data.forEach(item => {
       const card = document.createElement("div");
       card.classList.add("card-comentario");
 
       card.innerHTML = `
         <div class="card-topo">
-          <img src="${item.foto}" alt="${item.nome}">
+          <img src="${iconeAleatorio()}" alt="Avatar do cliente">
           <h3>${item.nome}</h3>
         </div>
         <p>${item.comentario}</p>
@@ -191,4 +202,4 @@ fetch('./clientes.json')
       container.appendChild(card);
     });
   })
-  .catch(error => console.error('Erro ao carregar os comentários:', error));
+  .catch(error => console.error("Erro ao carregar os comentários:", error));

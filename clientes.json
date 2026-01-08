@@ -49,4 +49,14 @@
     "nome": "Diego Santos",
     "comentario": "Ótica de confiança. Atendimento excelente e muita variedade de modelos para todos os gostos."
   }
+  {
+  "foto": "https://randomuser.me/api/portraits/women/17.jpg",
+  "nome": "Camila Andrade",
+  "comentario": "Fui muito bem recebida desde o primeiro momento. Atendimento atencioso e ótimas opções de armações modernas."
+},
+{
+  "foto": "https://randomuser.me/api/portraits/men/41.jpg",
+  "nome": "Thiago Ribeiro",
+  "comentario": "Ótica excelente, com profissionais qualificados e muita variedade. Saí muito satisfeito com meus óculos."
+}
 ]
