@@ -163,3 +163,32 @@ const observer = new IntersectionObserver((entries) => {
 sections.forEach((section) => {
   observer.observe(section);
 });
+
+// json cards comentários
+
+const container = document.getElementById("comentarios");
+
+fetch('./clientes.json')
+  .then(response => {
+    console.log('Response:', response);
+    return response.json();
+  })
+  .then(data => {
+    console.log('Dados carregados:', data);
+
+    data.forEach(item => {
+      const card = document.createElement("div");
+      card.classList.add("card-comentario");
+
+      card.innerHTML = `
+        <div class="card-topo">
+          <img src="${item.foto}" alt="${item.nome}">
+          <h3>${item.nome}</h3>
+        </div>
+        <p>${item.comentario}</p>
+      `;
+
+      container.appendChild(card);
+    });
+  })
+  .catch(error => console.error('Erro ao carregar os comentários:', error));

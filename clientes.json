@@ -1,0 +1,52 @@
+[
+  {
+    "foto": "https://randomuser.me/api/portraits/women/12.jpg",
+    "nome": "Mariana Silva",
+    "comentario": "Fui muito bem atendida do começo ao fim. As armações são lindas e de ótima qualidade. Com certeza volto mais vezes."
+  },
+  {
+    "foto": "https://randomuser.me/api/portraits/men/34.jpg",
+    "nome": "Carlos Eduardo",
+    "comentario": "Atendimento excelente, pessoal muito paciente e atencioso. Me ajudaram a escolher a armação ideal pro meu rosto."
+  },
+  {
+    "foto": "https://randomuser.me/api/portraits/women/45.jpg",
+    "nome": "Ana Paula Rocha",
+    "comentario": "Gostei muito da variedade de armações e do cuidado no atendimento. Me senti bem acolhida."
+  },
+  {
+    "foto": "https://randomuser.me/api/portraits/men/22.jpg",
+    "nome": "Lucas Almeida",
+    "comentario": "Ótica muito organizada e moderna. O atendimento é rápido e os óculos ficaram prontos antes do prazo."
+  },
+  {
+    "foto": "https://randomuser.me/api/portraits/women/68.jpg",
+    "nome": "Fernanda Costa",
+    "comentario": "As armações são lindas e confortáveis. O pessoal explica tudo direitinho e passa muita confiança."
+  },
+  {
+    "foto": "https://randomuser.me/api/portraits/men/51.jpg",
+    "nome": "Rafael Nogueira",
+    "comentario": "Excelente experiência. Fui bem orientado na escolha das lentes e adorei o resultado final."
+  },
+  {
+    "foto": "https://randomuser.me/api/portraits/women/29.jpg",
+    "nome": "Juliana Martins",
+    "comentario": "Atendimento humanizado e muita atenção aos detalhes. Dá pra ver que se importam com o cliente."
+  },
+  {
+    "foto": "https://randomuser.me/api/portraits/men/76.jpg",
+    "nome": "Bruno Ferreira",
+    "comentario": "Preço justo, bom atendimento e armações de qualidade. Recomendo a Ótica Lusa."
+  },
+  {
+    "foto": "https://randomuser.me/api/portraits/women/83.jpg",
+    "nome": "Patrícia Lima",
+    "comentario": "Ambiente agradável e profissionais muito educados. Saí muito satisfeita com meus óculos novos."
+  },
+  {
+    "foto": "https://randomuser.me/api/portraits/men/90.jpg",
+    "nome": "Diego Santos",
+    "comentario": "Ótica de confiança. Atendimento excelente e muita variedade de modelos para todos os gostos."
+  }
+]

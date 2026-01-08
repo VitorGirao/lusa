@@ -220,10 +220,10 @@ header button {
 }
 
 .img-produto {
-    padding: 2rem 2rem;
+    padding: 2rem 2rem; 
     background-color: var(--tertiary-green);
-    width: 22rem;
-    height: 22rem;
+    width: 35rem;
+    height: 35rem;
     border-radius: 50%;
     flex-shrink: 0;
 }
@@ -238,6 +238,58 @@ header button {
 .img-produto:hover > img {
     transform: scale(1.10);
 }
+
+/* Container geral */
+.comentarios-container {
+  padding: 40px;
+}
+
+/* Grid dos cards */
+.comentarios-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+/* Card */
+.card-comentario {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Topo do card */
+.card-topo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Foto */
+.card-topo img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+/* Nome */
+.card-topo h3 {
+  font-size: 16px;
+  color: #043D2A;
+}
+
+/* Comentário */
+.card-comentario p {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
 
 #localizacao {
     background-color: white;
