@@ -168,7 +168,7 @@ header button {
 
 #icon-table .column>div {
     padding: 0.5rem;
-    background-color: var(--quaternary-green);
+    background-color: var(--tertiary-green);
     margin: 1rem;
     margin-bottom: 1.5rem;
     transition: transform 0.3s ease-out;

@@ -23,25 +23,5 @@
     "id": 5,
     "name": "icon5",
     "image": "./imagens/icon5.png"
-  },
-  {
-    "id": 6,
-    "name": "icon6",
-    "image": "./imagens/icon4p2.png"
-  },
-  {
-    "id": 7,
-    "name": "icon7",
-    "image": "./imagens/icon4p2.png"
-  },
-  {
-    "id": 8,
-    "name": "icon8",
-    "image": "./imagens/icon5p2.png"
-  },
-  {
-    "id": 9,
-    "name": "icon9",
-    "image": "./imagens/icon6p2.png"
   }
 ]
