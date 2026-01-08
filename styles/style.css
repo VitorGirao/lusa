@@ -289,7 +289,7 @@ header button {
 /* Nome */
 .card-topo h3 {
     font-size: 16px;
-    color: #043D2A;
+    color: var(--primary-green);
 }
 
 /* Comentário */
