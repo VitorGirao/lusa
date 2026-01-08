@@ -200,7 +200,7 @@ header button {
     color: var(--white);
     display: flex;
     align-items: center;
-    gap: 3rem;
+    gap: 8rem;
 }
 
 .orga-produtos.reverse {
@@ -221,9 +221,9 @@ header button {
 
 .img-produto {
     padding: 2rem 2rem;
-    background-color: var(--tertiary-green);
-    width: 35rem;
-    height: 35rem;
+    background-color: var(--secondary-green);
+    width: 28rem;
+    height: 28rem;
     border-radius: 50%;
     flex-shrink: 0;
 }
