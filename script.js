@@ -169,14 +169,11 @@ sections.forEach((section) => {
 const container = document.getElementById("comentarios");
 
 const icones = [
-  "./imagens/icon1.png",
-  "./imagens/icon2.png",
-  "./imagens/icon3.png",
-  "./imagens/icon4.png",
+  "./imagens/icon1p2.png",
+  "./imagens/icon2p2.png",
+  "./imagens/icon3p2.png",
   "./imagens/icon4p2.png",
-  "./imagens/icon5.png",
   "./imagens/icon5p2.png",
-  "./imagens/icon6.png",
   "./imagens/icon6p2.png"
 ];
 
