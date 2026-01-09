@@ -133,7 +133,7 @@ header button {
 #cta{
     margin-top: 3rem;
     padding: 1.3rem;
-    letter-spacing: 0.08rem;
+    letter-spacing: 0.06rem;
     border-radius: 2rem;
     background-color: var(--tertiary-green);
     color: white;
