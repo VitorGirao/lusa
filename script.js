@@ -22,9 +22,14 @@ document.addEventListener("click", (e) => {
 // Popular produtos
 const productsContainer = document.getElementById("produtos-container");
 
-fetch("https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/products.json")
-  .then((response) => response.json())
-  .then((data) => {
+async function carregarProdutos() {
+  try {
+    const response = await fetch(
+      "https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/products.json"
+    );
+
+    const data = await response.json();
+
     const products = data;
     const productsList = products.slice(0, 3);
 
@@ -50,33 +55,48 @@ fetch("https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/product
 
       productsContainer.appendChild(productArticle);
     });
-  })
-  .catch((error) => console.error("Erro ao carregar produtos:", error))
-  .finally(() => {
+
+  } catch (error) {
+    console.error("Erro ao carregar produtos:", error);
+
+  } finally {
     const loadingText = document.querySelector(".loading-produtos");
     loadingText.style.display = "none";
-  });
+  }
+}
+
+carregarProdutos();
+
 
 // Popular ícones
 const iconsContainer = document.getElementById("icon-table");
 let iconsData = [];
 
-fetch("https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/icons.json")
-  .then((response) => response.json())
-  .then((data) => {
+async function carregarIcons() {
+  try {
+    const response = await fetch(
+      "https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/icons.json"
+    );
+
+    const data = await response.json();
     iconsData = data;
+
     const columnsContents = iconsContainer.querySelectorAll(".column > div");
 
     columnsContents.forEach((columnContent, index) => {
       const icon = data[index];
+      if (!icon) return;
+
       columnContent.innerHTML = `
         <img src="${icon.image}" alt="${icon.name}" />
       `;
     });
 
-    // Trocar 3 ícones aleatoriamente a cada 2 segundos
+    // Trocar 3 ícones aleatoriamente a cada 2.5 segundos
     setInterval(() => {
       const columnsContents = iconsContainer.querySelectorAll(".column > div");
+
+      if (columnsContents.length < 3) return;
 
       const index1 = Math.floor(Math.random() * columnsContents.length);
 
@@ -94,6 +114,8 @@ fetch("https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/icons.j
       const img2 = columnsContents[index2].querySelector("img");
       const img3 = columnsContents[index3].querySelector("img");
 
+      if (!img1 || !img2 || !img3) return;
+
       img1.style.opacity = "0";
       img1.style.transform = "scale(0.7)";
       img2.style.opacity = "0";
@@ -107,21 +129,29 @@ fetch("https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/icons.j
 
         img1.src = img2.src;
         img1.alt = img2.alt;
+
         img2.src = img3.src;
         img2.alt = img3.alt;
+
         img3.src = tempSrc;
         img3.alt = tempAlt;
 
         img1.style.opacity = "1";
-        img1.style.transform = "scale(1.0)";
+        img1.style.transform = "scale(1)";
         img2.style.opacity = "1";
-        img2.style.transform = "scale(1.0)";
+        img2.style.transform = "scale(1)";
         img3.style.opacity = "1";
-        img3.style.transform = "scale(1.0)";
+        img3.style.transform = "scale(1)";
       }, 500);
     }, 2500);
-  })
-  .catch((error) => console.error("Erro ao carregar ícones:", error));
+
+  } catch (error) {
+    console.error("Erro ao carregar ícones:", error);
+  }
+}
+
+carregarIcons();
+
 
 // Link ativo ao rolar a página
 const sections = document.querySelectorAll("main section");
@@ -181,9 +211,14 @@ function iconeAleatorio() {
   return icones[Math.floor(Math.random() * icones.length)];
 }
 
-fetch('https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/clientes.json')
-  .then(response => response.json())
-  .then(data => {
+async function carregarComentarios() {
+  try {
+    const response = await fetch(
+      "https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/clientes.json"
+    );
+
+    const data = await response.json();
+
     data.forEach(item => {
       const card = document.createElement("div");
       card.classList.add("card-comentario");
@@ -198,5 +233,10 @@ fetch('https://raw.githubusercontent.com/VitorGirao/lusa/refs/heads/main/cliente
 
       container.appendChild(card);
     });
-  })
-  .catch(error => console.error("Erro ao carregar os comentários:", error));
+
+  } catch (error) {
+    console.error("Erro ao carregar os comentários:", error);
+  }
+}
+
+carregarComentarios();
