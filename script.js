@@ -6,13 +6,14 @@ menuButton.addEventListener("click", () => {
   menuNav.classList.toggle("active");
 });
 
+//Tira a classe active do menu pra ele sumir (clicando em alguma opçao do menu)
 const menuLinks = document.querySelectorAll("#menu-nav ul li a");
 menuLinks.forEach((link) => {
   link.addEventListener("click", () => {
     menuNav.classList.remove("active");
   });
 });
-
+//Tira a classe active do menu pra ele sumir (clicando fora do menu)
 document.addEventListener("click", (e) => {
   if (!menuNav.contains(e.target) && !menuButton.contains(e.target)) {
     menuNav.classList.remove("active");
@@ -83,6 +84,7 @@ async function carregarIcons() {
 
     const columnsContents = iconsContainer.querySelectorAll(".column > div");
 
+    //popular com as imagens
     columnsContents.forEach((columnContent, index) => {
       const icon = data[index];
       if (!icon) return;
